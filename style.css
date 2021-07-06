@@ -1,0 +1,148 @@
+body{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+ 
+}
+body p{
+    color: dimgray;
+    
+}
+.container{
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.img-container img{
+    height: 500px;
+ 
+    
+}
+.container-1{
+    width: 80%;
+}
+.header{
+    font-weight: 800;
+   font-size: 50px;
+    margin: 0;
+    color: #575757;
+}
+.skip{
+    color: #FB8C47;
+}
+.container-1 p{
+    color: #8a8a8a;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.link-button{
+    margin-top: 30px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #fb9a4d, #f4462c);
+}
+.about-img img{
+   display: flex;
+   justify-content: center;
+ 
+
+}
+
+.top-baner{
+  
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin: 0%;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    background-image: url(images/shapes/7.png);
+    background-position: center;
+
+    
+ 
+}
+.about-img img{
+    width: 50%;
+    justify-content: center;
+    padding: 30px;
+}
+.p-tag{
+    text-align: left;
+    font-size: 24px;
+}
+h1{
+    color: #575757;
+
+}
+.text{
+   text-align: center;
+   margin-top: 50px;
+   
+}
+.pragharap{
+    text-align: center ;
+    margin-top: 0%;
+}
+.card{
+    width: 250px;
+    margin-top: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 30px;
+    
+}
+.img-style{
+    width: 100%;
+}
+.card-body{
+    padding: 10px;
+}
+.card-discripsion{
+    line-height: 1.5;
+}
+.card-contianer{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    box-shadow:  5px 5px 10px 5px lightgray;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.backraund{
+    background-color: #0B0D17;
+    margin-bottom: 0%;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+    height: auto;
+
+}
+
