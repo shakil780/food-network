@@ -8,11 +8,25 @@ body p{
     color: dimgray;
     
 }
+.navbar{
+    background-color: #575757;
+    padding: 2% 7%;
+    text-align: end;
+
+}
+.navbar a{
+    color: red;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
 .container{
     display: flex;
     height: auto;
     align-items: center;
     padding: 10px 10px;
+    width: 92%;
+    margin: auto;
 }
 
 .img-container img{
@@ -66,20 +80,26 @@ body p{
     margin-top: 50px;
     margin: 0%;
 }
-.about{
+.about-section{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 400px;
     margin-top: 50px;
     background-image: url(images/shapes/7.png);
-    background-position: center;
+   background-size: cover;
 
-    
- 
+}
+.about{
+    width: 50%;
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 .about-img img{
-    width: 50%;
+    height: 350px;
     justify-content: center;
     padding: 30px;
 }
@@ -137,7 +157,7 @@ h1{
 
 .backraund{
     background-color: #0B0D17;
-    margin-bottom: 0%;
+  height: 150px;
 }
 footer{
     margin-top: 50px;
@@ -145,4 +165,13 @@ footer{
     height: auto;
 
 }
+.food{
+    color: #FB8C47;
+
+}
+footer p{
+    color: white;
+    font-size: 10px;
+}
+
 
